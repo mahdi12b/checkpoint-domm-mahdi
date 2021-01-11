@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Carousel*/
+.d-block {
+  height: 450px;
+}
+
+/* Panier */
+.panier {
+  margin-left: 10%;
+  background-color: rgb(236, 235, 235);
+  width: 1200px;
+  height: 1350px;
+}
+.totalPrice {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: darkorange;
+  text-shadow: 2px 5px rgba(236, 235, 235, 0.9);
+  display: inline;
+}
+.totalPrice1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: darkorange;
+  text-shadow: 2px 5px rgba(236, 235, 235, 0.9);
+  display: inline;
+}
+
+.card {
+  height: 308px;
+}
+
+.imgpanier {
+  width: 90%;
+  height: 250px;
+  padding: 10%;
+}
+.likeclose {
+  padding: 1%;
+}
+.btn-close {
+  text-align: right;
+}
+.far {
+  margin-right: 2%;
+  height: 10px;
+  font-size: 1.4em;
+}
+.far:hover {
+  color: #f50057;
+}
+.fas {
+  color: #f50057;
+  margin-right: 2%;
+  height: 10px;
+  font-size: 1.4em;
+}
+.priceElem {
+  display: inline;
+}
+.priceElem1 {
+  display: inline;
+}
+.plus {
+  margin-left: 10px;
+}
+.moins {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #747474;
+  padding: 2%;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+footer p:first-child {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+footer p:last-child {
+  margin: 0.2%;
+}
+footer a {
+  color: #3d83df;
+  text-decoration: none;
+}
